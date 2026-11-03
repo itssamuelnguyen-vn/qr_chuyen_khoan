@@ -42,3 +42,19 @@ class FormatAndSearchTest {
         assertFalse(filled.copy(accountName = " .. ").isValid)
     }
 }
+
+class BankStyleTest {
+    @Test
+    fun monogramsAreShort() {
+        val vcb = com.samuelcruz.qrchuyenkhoan.qr.Banks.byBin("970436")!!
+        assertEquals("VCB", com.samuelcruz.qrchuyenkhoan.qr.BankStyle.monogram(vcb))
+        com.samuelcruz.qrchuyenkhoan.qr.Banks.all.forEach {
+            assertTrue(it.shortName, com.samuelcruz.qrchuyenkhoan.qr.BankStyle.monogram(it).length in 2..4)
+        }
+    }
+
+    @Test
+    fun popularBanksExist() {
+        com.samuelcruz.qrchuyenkhoan.qr.BankStyle.popular.forEach { assertTrue(it, Banks.byBin(it) != null) }
+    }
+}

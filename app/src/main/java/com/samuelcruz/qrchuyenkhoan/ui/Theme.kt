@@ -22,6 +22,7 @@ val BeVietnamPro = FontFamily(
 
 private val typography = Typography().run {
     copy(
+        headlineMedium = headlineMedium.copy(fontFamily = BeVietnamPro, fontWeight = FontWeight.Bold),
         headlineSmall = headlineSmall.copy(fontFamily = BeVietnamPro, fontWeight = FontWeight.Bold),
         titleLarge = titleLarge.copy(fontFamily = BeVietnamPro, fontWeight = FontWeight.Bold),
         titleMedium = titleMedium.copy(fontFamily = BeVietnamPro, fontWeight = FontWeight.SemiBold),
@@ -45,6 +46,7 @@ private val Light = lightColorScheme(
     surfaceContainerLow = Color(0xFFFFFFFF),
     surfaceContainer = Color(0xFFFFFFFF),
     surfaceContainerHigh = Color(0xFFFFFFFF),
+    surfaceContainerHighest = Color(0xFFEEF3F2),
     onSurface = Color(0xFF1F2937),
     onSurfaceVariant = Color(0xFF5B6472),
     outline = Color(0xFFB8C2C0),
@@ -62,6 +64,7 @@ private val Dark = darkColorScheme(
     surfaceContainerLow = Color(0xFF14211F),
     surfaceContainer = Color(0xFF14211F),
     surfaceContainerHigh = Color(0xFF1B2B29),
+    surfaceContainerHighest = Color(0xFF22322F),
     onSurface = Color(0xFFE6F0EE),
     onSurfaceVariant = Color(0xFF9DB0AD),
     outline = Color(0xFF4A5C59),
