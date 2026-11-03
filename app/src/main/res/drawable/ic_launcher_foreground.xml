@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A white QR code glyph; art kept inside the 66dp safe zone of the 108dp canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd" android:pathData="M31,31h17.5v17.5h-17.5z M33.5,33.5v12.5h12.5v-12.5z M36,36h7.5v7.5h-7.5z M59.5,31h17.5v17.5h-17.5z M62,33.5v12.5h12.5v-12.5z M64.5,36h7.5v7.5h-7.5z M31,59.5h17.5v17.5h-17.5z M33.5,62v12.5h12.5v-12.5z M36,64.5h7.5v7.5h-7.5z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M51,31h5v5h-5z M51,41h5v7.5h-5z M51,51h7.5v5h-7.5z M31,51h5v5h-5z M41,51h7.5v5h-7.5z M64.5,51h5v5h-5z M72,51h5v7.5h-5z M51,61h5v5h-5z M59.5,59.5h7.5v7.5h-7.5z M69.5,64.5h7.5v5h-7.5z M51,71h7.5v6h-7.5z M61.5,72h5v5h-5z M71,72h6v5h-6z" />
+</vector>
